@@ -1,17 +1,16 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <LikeComponent/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import LikeComponent from "./components/LikeComponent.vue"
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    LikeComponent
   }
 }
 </script>
