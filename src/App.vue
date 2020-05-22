@@ -1,6 +1,7 @@
 <template>
   <div id="app">
-    <LikeComponent/>
+      <LikeComponent/>
+
   </div>
 </template>
 
